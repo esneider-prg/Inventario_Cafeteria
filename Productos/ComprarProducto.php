@@ -86,7 +86,7 @@ require 'DatosComprarProducto.php'
                     <div class="form-group row">
                         <div class="col-sm-15">
                             <label for="" class="col-sm-2 col-form-label">Codigo:</label>
-                            <input type="text" class="form-control" name="Idproducto" value="<?php echo $Idproducto; ?>" placeholder="Codigo producto" id="Idproducto" require="">
+                            <input type="hidden" class="form-control" name="Idproducto" value="<?php echo $Idproducto; ?>" placeholder="Codigo producto" id="Idproducto" require="">
                         </div>
                     </div>
                     <div>
